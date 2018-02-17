@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head><title>Form</title>
+</head>
+<body style="background-color:pink;">
+<form action="">
+<fieldset>
+<legend><b>FORM</b></legend><br><b>
+  Name:</b>
+  <input type="text" name="name" required="required" maxlength="25" size="45" >
+  <br><br><b>
+  Address:</b><br>
+  <textarea name="address" rows="3" cols="43" required="required" >
+</textarea>
+ <br><br><b>
+  Gender:</b>
+  <input type="radio" name="gender" value="male" checked> Male
+  <input type="radio" name="gender" value="female" > Female<br><br>
+   <b>Select Branch: </b><select name="branch">
+    <option value="aero">AERO</option>
+    <option value="civil">CIVIL</option>
+    <option value="cse">CSE</option>
+    <option value="ece">ECE</option>
+	<option value="eee">EEE</option>
+    <option value="eie">EIE</option>
+    <option value="it">IT</option>
+    <option value="mech">MECH</option>
+  </select><br><br>
+  <b>Select Course:</b>
+  <table>
+  <tr><td><input type="checkbox" name="ap" value="First"> Advanced Programming</td></tr><br>
+  <tr><td><input type="checkbox" name="ms" value="Second"> Mean Stack</td></tr><br>
+  <tr><td><input type="checkbox" name="bd" value="third"> Business Development</td></tr></table><br>
+  <br>
+  <b>Select Country: </b><select name="country">
+    <option value="india">INDIA</option>
+    <option value="pakistan">PAKISTAN</option>
+    <option value="australia">AUSTRALIA</option>
+    <option value="others">OTHERS</option></select><br><br>
+	<center><input type="submit" value="Submit"></center>
+ </fieldset>
+</form> 
+</body>
+</html>
